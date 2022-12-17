@@ -1,0 +1,295 @@
+@import url('http://fonts.cdnfonts.com/css/proxima-nova-2');
+::-webkit-scrollbar{
+    display: none;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+*{
+    font-family: 'Proxima Nova', sans-serif;
+}
+.navigation{
+    border: none;
+    width: 100%;
+    background-color: black;
+    height: 70px;
+    color: white;
+}
+a,.bar{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700; 
+    padding-left: 20px;                                                
+}
+.logo{
+    height: 27px;
+    width: 90px;
+    margin-top: 20px;
+    margin-left: 7%;
+}
+.link{
+    margin-left:38%;
+}
+a:hover{
+    color: rgb(38, 201, 38);
+}
+.purple{
+    position: relative;
+    background-color: rgba(0, 0, 0, 0);
+    background-image: url("https://www.scdn.co/i/free/bubbles-dktp.svg"),linear-gradient(-45deg, rgb(108, 14, 224) -5%, rgb(240, 55, 166));
+    height: 600px;
+    /* margin-top: -22px; */
+}
+.mobile{
+    position: absolute;
+    width: 300px;
+    height: 500px;
+    background-color: white;
+    margin-top: 8%;
+    margin-left: 20%;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    overflow: hidden;
+}
+.speaker{
+    border: 3px solid black;
+    width: 40px;
+    height: 0.5px;
+    border-radius: 5px;
+    background-color: black;
+    margin-top: 8%;
+    margin-left: 43%;
+    position: absolute;
+}
+.screen{
+    position: absolute;
+    height: 420px;
+    width: 280px;
+    padding: 10px;
+    margin-top: 16%;
+    overflow: hidden;
+}
+.description{
+    position: absolute;
+    font-size: 35px;
+    color: white;
+    font-weight: bolder;
+    margin-top: 8%;
+    margin-left: 45%;
+}
+.sub-btn{
+    height: 50px;
+    width: 180px;
+    margin-left: 45%;
+    margin-top: 23%;
+    background-color: white;
+    border: none;
+    border-radius: 30px;
+    font-weight: bold;
+}
+.sub-btn:hover{
+    transform: scale(1.1);
+}
+.que{
+    margin-top: 5.7%;
+    margin-left: 43%;
+    font-size: 40px;
+}
+.container{
+    margin-left: 15%;
+    display: flex;
+    border:none;
+    height: 350px;
+    width: 1100px;
+    padding: 5px;
+}
+.container > div{
+    padding: 50px;
+    width: 300px;
+    height: 200px; 
+}
+h3{
+    text-align: center;
+}
+h5{
+    font-weight: 10px;
+    text-align:center;
+}
+.free{
+    background: #962CAD;
+    background: linear-gradient(to bottom, #c00be8, #234fd1);
+    width: 100%;
+    height: 400px;
+}
+.description2{
+    color: white;
+    font-size: 55px;
+    text-align: center;
+    padding-top: 130px;
+}
+.purpleb{
+    position: relative;
+    background-color: rgba(0, 0, 0, 0);
+    background-image: url("https://www.scdn.co/i/free/bubbles-dktp.svg"),linear-gradient(-45deg, rgb(108, 14, 224) -5%, rgb(240, 55, 166));
+    height: 400px;
+    text-align: center;
+    /* margin-top: -22px; */
+}
+.descriptionb{
+    position: absolute;
+    font-size: 40px;
+    color: white;
+    font-weight: bolder;
+    margin-top: 4%;
+    margin-left: 30%;
+}
+.sub-btnb{
+    height: 50px;
+    width: 180px;
+    margin-top: 15%;
+    background-color: white;
+    border: none;
+    border-radius: 30px;
+    font-weight: bold;
+}
+.sub-btnb:hover{
+    transform: scale(1.1);
+}
+.queb{
+    text-align: center;
+    font-size: 40px;
+    height: 250px;
+}
+.foot{
+    width: 100%;
+    height: 470px;
+    background-color: black;
+}
+.logob{
+    height: 40px;
+    width: 130px;
+    margin-top: 80px;
+    margin-left: 10%;
+}
+.footdesc{
+    color: gray;
+    letter-spacing: 1px;
+    display: flex;
+    margin-left: 20%;
+    margin-top: -2.5%;
+    width: 1100px;
+    height: 300px;
+    
+}
+.social{
+    margin-left: 26%;
+    width: 250px;
+    height: 100px;
+}
+
+li{
+    margin-left: -7%;
+    cursor: pointer;
+    color: white;
+    list-style-type: none;
+    padding: 15px;
+}
+li:hover{
+    color: rgb(57, 218, 57);
+}
+.exelink{
+    /* border: 1px solid white; */
+    width: 50%;
+    height: 50px;
+    margin-left: 10%;
+}
+.exelink a{
+    font-size: 15px;
+    color: gray;
+    font-weight: 500;
+}
+.exelink a:hover{
+    color: rgb(57, 218, 57);
+}
+.location{
+    margin-top: -4.5%;
+    margin-left: 75%;
+    /* border: 1px solid white; */
+    width: 180px;
+    height: 70px;
+    text-align: right;
+    padding: 2px;
+}
+.location a,.location span{
+    font-size: 15px;
+    color: gray;
+    font-weight: 500;
+    padding: 5px;
+}
+.location a img{
+    padding-top: 4px;
+}
+.location a:hover{
+    color: rgb(57, 218, 57);
+}
+.faq{
+    /* border: 1px solid black; */
+    width: 1000px;
+    height: 400px;
+    margin-top: -15%;
+    margin-left: 17%;
+    margin-bottom: 50px;
+    display: flex;
+}
+.faq ul li{
+    margin-left: 2%;
+    font-size: 15px;
+    color: black;
+}
+details{
+    border-bottom: 1.5px solid rgb(240, 237, 237);
+    /* padding: 10px; */
+}
+details > summary{
+    font-weight: bold;
+    width: 900px;
+    color: black;
+    font-size: 20px;
+    list-style: none;
+    padding: 10px;
+    /* display: flex; */
+}
+summary::after{
+    content: url("https://img.icons8.com/ios/25/000000/expand-arrow--v2.png");
+}
+.first::after{
+    margin-left: 71%;
+}
+.second::after{
+    margin-left: 60.2%;
+}
+.third::after{
+    margin-left: 57%;
+}
+.fourth::after{
+    margin-left: 69.5%;
+}
+details[open] summary::after{
+    content: url("icons8-compress-arrow-25.png");
+    /* transition: rotateY(180deg); */
+}
+details:hover summary{
+    background-color: rgb(240, 237, 237);
+    text-decoration: underline;
+}
+details[open] summary{
+    background-color: rgb(240, 237, 237);
+    text-decoration: underline;
+}
+
+details[open] .list{
+    list-style-type: decimal;
+    padding: 0;
+}

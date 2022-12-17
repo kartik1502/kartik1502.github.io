@@ -1,0 +1,145 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+*{
+    font-family: 'Proxima Nova', sans-serif;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+.spotify-logo{
+    margin-left: 43%;
+    margin-top: 3%;
+    height: 100px;
+    width: 160px;
+}
+.social-signup{
+    margin-top: -3%;
+}
+.social-signup h1{
+    text-align: center;
+}
+.social-btn{
+    padding: 10px;
+    display: flex;
+    margin-left: 38%;
+    border-radius: 30px;
+    width: 370px;
+    height: 45px;
+    border: none;
+    background-color: #445e96;
+}
+.social-btn-google{
+    outline: solid 2px;
+    margin-top: 2%;
+    padding: 10px;
+    display: flex;
+    margin-left: 38%;
+    border-radius: 30px;
+    width: 370px;
+    height: 45px;
+    border: none;
+}
+.btn-fb{
+    margin-left: 15%;
+}
+.social-signup span{
+    color: white;
+    margin-left: 5%;
+    font-size: 18px;
+    font-weight: 700;
+}
+.social-btn-google .google{
+    color: black;
+}
+.social-btn:hover,.social-btn-google:hover{
+    transform: scale(1.025);
+}
+.social-btn:hover{
+    background-color: #324d87;
+}
+.social-signup p{
+    text-decoration: line-through;
+}
+h2 {
+    width: 24%; 
+    text-align: center; 
+    border-bottom: 1px solid gray; 
+    line-height: 0.1em;
+    margin-left: 38%;
+    margin-top: 2%;
+ } 
+ 
+ h2 .or{ 
+    color: rgb(156, 156, 156);
+    background:#fff; 
+    padding:0 10px; 
+ }
+ .spotify-register{
+    margin-left: 36%;
+    height: 1200px;
+ }
+ .spotify-register label{
+    font-weight: 700;
+    display: block;
+ }
+ .spotify-register input{
+    margin-top: 1%;
+    height: 52px;
+    width: 43%;
+    font-size: 18px;
+    padding-left: 1%;
+    border-radius: 3px;
+    border: 0.1px solid black;
+    display: block;
+}
+.spotify-register .select{
+    width: 11%;
+    display: inline-block;
+}
+.spotify-register select{
+    margin-top: 1%;
+    width: 20%;
+    height: 52px;
+    font-size: 18px;
+    padding-left: 1%;
+    border-radius: 3px;
+    border: 0.1px solid black;
+}
+.spotify-register > div{
+    margin-top: 3%;
+}
+.spotify-register a{
+    color:  rgb(57, 218, 57);
+}
+.email-flex{
+    display: flex;
+}
+.email-flex > label{
+    margin-top: 2.7%;
+    margin-left: 1%;
+}
+.spotify-register .radio{
+    width: 18px;
+    display: inline;
+}
+.tc{
+    font-size: 13px;
+    text-align: center;
+    margin-left: -55%;
+}
+.sub-btn{
+    height: 50px;
+    width: 180px;
+    margin-left: 12%;
+    background-color:  rgb(57, 218, 57);
+    border: none;
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 17px;
+    
+}
+.sub-btn:hover{
+    transform: scale(1.1);
+}

@@ -1,0 +1,195 @@
+@import url('http://fonts.cdnfonts.com/css/proxima-nova-2');
+::-webkit-scrollbar{
+    display: none;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+*{
+    font-family: 'Proxima Nova', sans-serif;
+}
+.navigation{
+    border: none;
+    width: 100%;
+    background-color: black;
+    height: 70px;
+    color: white;
+}
+a,.bar{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700; 
+    padding-left: 20px;                                                
+}
+.logo{
+    height: 27px;
+    width: 90px;
+    margin-top: 20px;
+    margin-left: 7%;
+}
+.link{
+    margin-left:38%;
+}
+a:hover{
+    color: rgb(38, 201, 38);
+}
+.green{
+    background-color: rgb(25, 230, 140);
+    height: 530px;
+}
+.green .laptop{
+    margin-left: 45%;
+    margin-top: 7%;
+}
+.green h1{
+    margin-top: -0.5%;
+    margin-left: 35.5%;
+    font-size: 50px;
+    font-weight: 850;
+}
+.green p,.white p{
+    margin-left: 37%;
+    margin-top: -1%;
+}
+.white p{
+    margin-top: 2%;
+}
+.sub-btn{
+    height: 50px;
+    width: 150px;
+    background-color: white;
+    border: none;
+    border-radius: 30px;
+    font-weight: bold;
+    margin-left: 44%;
+}
+.sub-btn:hover{
+    transform: scale(1.05);
+}
+.white{
+    margin-top: 1%;
+    height: 250px;
+}
+.apple{
+    margin-top: 1%;
+    margin-left: 35%;
+}
+.play-store{
+    margin-top: 1%;
+    margin: -8px;
+    height: 57px;
+}
+.white h1{
+    margin-left: 27%;
+    margin-top: 4%;
+    font-weight: 900;
+    font-size: 35px;
+    letter-spacing: 1px;
+
+}
+.grey{
+    height: 470px;
+    background-color: rgb(34, 35, 38);
+}
+.grey h1{
+    color: white;
+    font-weight: 800;
+    margin-left: 32%;
+    font-size: 35px;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+}
+.grey-ul{
+    margin-top: 3%;
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    color: rgb(29, 185, 84);
+    margin-left: 19%;
+    font-size: 18px;
+}
+.grey li:nth-of-type(1),.grey li:nth-of-type(2),.grey li:nth-of-type(3){
+    color: white;
+}
+.firstList{
+    list-style-type: none;
+}
+.device{
+    margin-top: 5%;
+    margin-left: 34%;
+    height: 173px;
+    width: 480px;
+}
+.foot{
+    width: 100%;
+    height: 470px;
+    background-color: black;
+}
+.logob{
+    height: 40px;
+    width: 130px;
+    margin-top: 80px;
+    margin-left: 10%;
+}
+.footdesc{
+    color: gray;
+    letter-spacing: 1px;
+    display: flex;
+    margin-left: 20%;
+    margin-top: -2.5%;
+    width: 1100px;
+    height: 300px;
+    
+}
+.social{
+    margin-left: 26%;
+    width: 250px;
+    height: 100px;
+}
+.li{
+    margin-left: -7%;
+    cursor: pointer;
+    color: white;
+    list-style-type: none;
+    padding: 15px;
+}
+.li:hover{
+    color: rgb(57, 218, 57);
+}
+.exelink{
+    /* border: 1px solid white; */
+    width: 50%;
+    height: 50px;
+    margin-left: 10%;
+}
+.exelink a{
+    font-size: 15px;
+    color: gray;
+    font-weight: 500;
+}
+.exelink a:hover{
+    color: rgb(57, 218, 57);
+}
+.location{
+    margin-top: -4.5%;
+    margin-left: 75%;
+    /* border: 1px solid white; */
+    width: 180px;
+    height: 70px;
+    text-align: right;
+    padding: 2px;
+}
+.location a,.location span{
+    font-size: 15px;
+    color: gray;
+    font-weight: 500;
+    padding: 5px;
+}
+.location a img{
+    padding-top: 4px;
+}
+.location a:hover{
+    color: rgb(57, 218, 57);
+}
